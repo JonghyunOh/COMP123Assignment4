@@ -10,11 +10,11 @@ namespace Assignment4
     {
         private readonly double _diameter;
         private readonly double _mass;
-        private readonly int _moonCount;
+        private int _moonCount;
         private readonly string _name;
-        private readonly double _orbitalPeriod;
-        private readonly int _ringCount;
-        private readonly double _rotationPeriod;
+        private double _orbitalPeriod;
+        private int _ringCount;
+        private double _rotationPeriod;
 
         public Planet(string p_name, double p_diameter, double p_mass)
         {

@@ -8,5 +8,7 @@ namespace Assignment4
 {
     interface IHasMoons
     {
+
+        bool HasMoons();
     }
 }

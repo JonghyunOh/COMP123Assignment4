@@ -8,5 +8,6 @@ namespace Assignment4
 {
     interface IHasRings
     {
+        bool HasRings();
     }
 }

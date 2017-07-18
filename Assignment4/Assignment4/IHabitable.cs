@@ -8,5 +8,6 @@ namespace Assignment4
 {
     interface IHabitable
     {
+        bool Habitable();
     }
 }
