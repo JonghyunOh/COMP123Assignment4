@@ -17,11 +17,22 @@ namespace Assignment4
     {
         private bool _oxygen = false;
 
+        /// <summary>
+        /// Constructor with 4 arguments and oxygen must be true/false.
+        /// </summary>
+        /// <param name="p_name"></param>
+        /// <param name="p_diameter"></param>
+        /// <param name="p_mass"></param>
+        /// <param name="oxygen"></param>
         public TerrestrialPlanet(string p_name, double p_diameter, double p_mass, bool oxygen) : base(p_name, p_diameter, p_mass)
         {
             this._oxygen = oxygen;
         }
 
+        /// <summary>
+        /// HasMoons return true if MoonCount is greater than 0.
+        /// </summary>
+        /// <returns></returns>
         public bool HasMoons()
         {
             bool result = false;
@@ -34,6 +45,10 @@ namespace Assignment4
             return result;
         }
 
+        /// <summary>
+        /// HasMoons return true if oxygen is true.
+        /// </summary>
+        /// <returns></returns>
         public bool Habitable()
         {
             return this._oxygen;
