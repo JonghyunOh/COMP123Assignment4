@@ -15,6 +15,9 @@ namespace Assignment4
 {
     class GiantPlanet : Planet, IHasMoons, IHasRings
     {
+        /// <summary>
+        /// _type must have one of the values "Gas" or "Ice". The default value is "Gas" in this program.
+        /// </summary>
         private string _type = "Gas";
 
         /// <summary>
